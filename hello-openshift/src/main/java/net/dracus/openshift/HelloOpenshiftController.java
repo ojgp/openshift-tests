@@ -11,12 +11,12 @@ public class HelloOpenshiftController {
 
 	@GetMapping("")
 	public String sayHello() {
-		return "Openshift test application";
+		return "Openshift test application\n";
 	}
 
 	@GetMapping("{message}")
 	public String sayHello(@PathVariable String message) {
-		return "Hello " + message;
+		return "Hello " + message + "\n";
 	}
 
 }
