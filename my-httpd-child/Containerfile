@@ -1,0 +1,1 @@
+FROM quay.io/ojgomez/my-httpd-parent:1.0
