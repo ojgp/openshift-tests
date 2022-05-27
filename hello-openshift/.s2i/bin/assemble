@@ -9,3 +9,4 @@ if [ $RC -eq 0 ]; then
   echo ">>> Barbarix: Assemble successful !!!"
 else 
   echo ">>> Barbarix: Assemble failed !!!"
+fi
