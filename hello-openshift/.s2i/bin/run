@@ -1,5 +1,0 @@
-#!/bin/bash
-
-echo ">>> Starting Barbarix service..."
-
-exec /usr/local/s2i/run
