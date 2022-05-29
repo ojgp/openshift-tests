@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo ">>> Starting Barbarix Assemble..."
+
+/usr/local/s2i/assemble
+RC=$?
+
+if [ $RC -eq 0 ] ; then
+  echo ">>> Barbarix Assemble finished !!!"
+else
+  echo ">>> Barbarix Assemble failed !!!"
+fi
+
+
