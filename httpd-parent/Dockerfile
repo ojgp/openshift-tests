@@ -10,7 +10,7 @@ RUN yum install -y --nodocs --disableplugin=subscription-manager httpd && \
     yum clean all --disableplugin=subscription-manager && \
     echo "Hello from $AMICI HTTPD Parent Server" > /var/www/html/index.html
 
-ONBUILD COPY src/. /var/www/html/.
+ONBUILD COPY src /var/www/html
 
 USER 0
 
