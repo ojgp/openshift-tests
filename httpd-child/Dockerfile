@@ -1,4 +1,4 @@
-FROM quay.io/ojgomez/http-parent:1.2
+FROM quay.io/ojgomez/http-parent:2.0
 
 LABEL io.openshift.expose-services="10080:http"
 
